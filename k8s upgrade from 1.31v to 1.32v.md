@@ -20,7 +20,7 @@ sudo apt-cache madison kubeadm
 ```bash
 # replace x in 1.32.x-* with the latest patch version
 sudo apt-mark unhold kubeadm && \
-sudo apt-get update && sudo apt-get install -y kubeadm='1.32.x-*' && \
+sudo apt-get update && sudo apt-get install -y kubeadm='1.32.4-1.1' && \
 sudo apt-mark hold kubeadm
 
 kubeadm version
