@@ -69,4 +69,26 @@ kubectl get configmap -n development
 NAME               DATA   AGE
 kube-root-ca.crt   1      5h55m
 test-configmap     2      95m
+
+kubectl describe configmap test-configmap -n development
+Name:         test-configmap
+Namespace:    development
+Labels:       <none>
+Annotations:  <none>
+
+Data
+====
+you:
+----
+me
+
+foo:
+----
+bar
+
+
+BinaryData
+====
+
+Events:  <none>
 ```

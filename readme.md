@@ -6,6 +6,8 @@ ___
 > [kubeadm upgarde from 1.31v to 1.32v](https://github.com/mesivayenduri/kubeadm-setup/blob/main/k8s%20upgrade%20from%201.31v%20to%201.32v.md)
 
 > [kubeadm upgarde from 1.32v to 1.33v](https://github.com/mesivayenduri/kubeadm-setup/blob/main/k8s%20upgarde%20from%201.32v%20to%201.33v.md)
+
+> [ETCD Backup & Restore](https://github.com/mesivayenduri/kubeadm-setup/blob/main/etcd-backup-restore.md)
 ___
 **KUBERNETES HARD WAY SETUP**
 ___
